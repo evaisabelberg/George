@@ -7,5 +7,6 @@ A home automation UI for HomeSeer
 4. Run 'npm install'
 5. Given that the database is located in the parent root folder, you should now be able to run the application with command 'npm run setup'
 ## Setup
-Navigate to url/setup
+Navigate to url/setup in your preferred browser.
+
 ![](setup.gif)
