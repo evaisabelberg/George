@@ -15,4 +15,4 @@ Navigate to url/setup in your preferred browser.
 ## Home
 Example of home view
 
-![](default view example.png)
+![](homeexample.PNG)
