@@ -11,3 +11,8 @@ A home automation UI for HomeSeer
 Navigate to url/setup in your preferred browser.
 
 ![](setup.gif)
+
+## Home
+Example of home view
+
+![](default view example.png)
