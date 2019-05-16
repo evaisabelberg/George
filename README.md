@@ -5,7 +5,7 @@ A home automation UI for HomeSeer
 - Install MongoDB
 - Download and extract George in desired location
 ## Install
-### Run as Windows Service
+### Run as Windows service
 1. Follow the instructions of this link: https://tomasz.janczuk.org/2011/08/hosting-nodejs-applications-in-iis-on.html
 ### Run from command prompt
 1. Inside George root folder, run 'npm install' and 'npm run client-install'
