@@ -1,14 +1,18 @@
 # George
 A home automation UI for HomeSeer
+## Prerequisites
+- Install Node.js
+- Install MongoDB
+- Download and extract George in desired location
 ## Install
-1. Enter your keys in 'root/config/keys.js
-2. Navigate to the root folder in your preferred command prompt
-3. Run 'npm install' and 'npm run client-install'
-4. Given that the database is located in the parent root folder, you should now be able to run the application with command 'npm run setup'
+### Run as Windows Service
+1. Follow the instructions of this link: https://tomasz.janczuk.org/2011/08/hosting-nodejs-applications-in-iis-on.html
+### Run from command prompt
+1. Inside George root folder, run 'npm install' and 'npm run client-install'
+2. Locate the database in George root folder
+3. Run npm start, which concurrently runs the server and client - consequently opening the application in a browser
 
 **Note: The browser must have Redux Dev Tools installed to work with this application.**
-## Setup
-Navigate to url/setup in your preferred browser.
 
 ![](setup.gif)
 
