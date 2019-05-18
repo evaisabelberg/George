@@ -1,10 +1,10 @@
 # George
 A home automation UI for HomeSeer
 ## Prerequisites
-- Install Node.js
-- Install MongoDB
-- HomeSeer 3 Pro
-- Motion detector connected to HomeSeer
+- Node.js
+- MongoDB
+- HomeSeer 3
+- Motion detector connected to HomeSeer 3
 - Download and extract George in desired location
 ## Install
 ### Run as Windows service
