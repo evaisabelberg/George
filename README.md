@@ -29,3 +29,28 @@ Example of setup view
 ### Demo
 ![](gethomeseerdevices.gif)
 ### Code
+```
+export const getHomeseerData = () => dispatch => {
+    axios
+        .get(keys.hsURI + keys.getStatus)
+        .then(res => {
+            axios
+                .post('/api/homeseer', {
+                    devices: res.data.Devices
+                })
+                .then(res => {
+                    dispatch(setHomeLoading()); // Displays loading animation
+                    dispatch(getHomeseer()); // Sets HomeSeer devices in state
+                })
+                .then(() => {
+                    dispatch(setView(2)); // Determines which component to render in the view
+                })
+                .catch(err => {
+                    throw err;
+                })
+        })
+        .catch(err => {
+            throw err;
+        });
+}
+```
