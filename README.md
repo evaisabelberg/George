@@ -32,7 +32,7 @@ Example of setup view
 ```
 export const getHomeseerData = () => dispatch => {
     axios
-        .get(keys.hsURI + keys.getStatus)
+        .get(keys.hsURI + keys.getStatus) // HomeSeer URI + HomeSeer API
         .then(res => {
             axios
                 .post('/api/homeseer', {
