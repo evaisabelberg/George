@@ -26,9 +26,10 @@ Example of setup view
 ![](setup.gif)
 
 ## Results
-### Demo
+###Get devices from HomeSeer
+#### Demo
 ![](gethomeseerdevices.gif)
-### Code
+#### Code
 ```
 export const getHomeseerData = () => dispatch => {
     axios
