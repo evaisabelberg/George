@@ -27,5 +27,5 @@ Example of setup view
 
 ## Results
 ### Demo
-
+![](gethomeseerdevices.gif)
 ### Code
