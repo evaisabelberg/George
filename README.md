@@ -26,7 +26,7 @@ Example of setup view
 ![](setup.gif)
 
 ## Results
-### Get devices from HomeSeer
+### 1: Get devices from HomeSeer
 #### Demo
 ![](gethomeseerdevices.gif)
 #### Code
