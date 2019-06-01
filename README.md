@@ -55,3 +55,6 @@ export const getHomeseerData = () => dispatch => {
         });
 }
 ```
+### 2: Setup George
+#### Demo
+![](setupgeorge.gif)
