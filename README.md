@@ -16,15 +16,6 @@ A home automation UI for HomeSeer
 
 **Note: The browser must have Redux Dev Tools installed to work with this application.**
 
-## Home
-Example of home view
-
-![](homeexample.PNG)
-
-Example of setup view
-
-![](setup.gif)
-
 ## Results
 ### 1: Get devices from HomeSeer
 #### Demo
