@@ -58,3 +58,7 @@ export const getHomeseerData = () => dispatch => {
 ### 2: Setup George
 #### Demo
 ![](setupgeorge.gif)
+
+### 3: Login
+#### Demo
+![](loginmobile.gif)
