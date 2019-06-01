@@ -5,6 +5,8 @@ A home automation UI for HomeSeer
 - MongoDB (running)
 - HomeSeer 3 setup
 - Motion detector connected to HomeSeer 3
+- Kiwi browser for mobile clients
+- Redux dev tools extension added in browser
 - Download and extract George in desired location
 ## Install
 ### Run as Windows service
