@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    background: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 0.5em 0 0.5em;
+    justify-content: flex-end;
+    align-items: center;
+}
+header button {
+    margin-left: 0.5em;
+}
+#settings-dialog #form-dialog-title h2 {
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.5);
+    font-size: 1.05em;
+    letter-spacing: 0.07em;
+    text-align: center;
+}
+#root section {
+    min-width: 200px;
+}
+.location, .expansionPanel {
+    width: 100%;
+}
+.location p {
+    width: 50%;
+    text-align: left;
+}
+.logout-btn {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.12) 0px 1px 1px !important;
+    background-color: rgba(63,81,181,0.8) !important;
+    margin-top: 1em;
+    width: 100%;
+    color: #fff;
+}
+.secondary-btn {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.12) 0px 1px 1px !important;
+    background-color: rgba(0,0,0,0.54) !important;
+    width: 50%;
+    color: #fff;
+}
+.tertiary-btn {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.12) 0px 1px 1px !important;
+    cursor: pointer;
+    width: 100%;
+}
+.tertiary-btn button {
+    background: none !important;
+}
+.nav-btn {
+    width: 50%;
+    align-self: flex-end;
+}
+#users {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.users li p {
+    text-align: center;
+}
+.user:not(:first-child) {
+    box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.12);
+}
+.userSet {
+    width: 100%;
+    min-height: 175px;
+    justify-content: space-evenly;
+    padding: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.userSet input {
+    width: 100%;
+    border-radius: 2px;
+}
+.expansionPanel .expansionDetails {
+    flex-direction: column;
+}
+.device {
+    align-items: flex-start !important;
+    cursor: pointer;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.12);
+}
+.card {
+    width:99%;
+    margin-top: 0.5em;
+}
+.card p {
+    width: 100%;
+    text-align: right;
+}
+.card p:first-child {
+    text-align: left;
+}
+.card .cardAction {
+    width: 100%;
+    padding: 0;
+    justify-content: flex-end;
+}
+.card .cardAction button {
+    padding: 0;
+}
+.card .cardAction p {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.card li {
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.08);
+}
+.card .cardAction div {
+    width: 100%;
+}
+#loading-dialog div {
+    overflow: hidden;
+    background: none;
+    box-shadow: none;
+}
+#settings-dialog div:nth-child(1) {
+    width: 100%;
+}
+#settings-dialog div:nth-child(2) {
+    align-items: stretch;
+}
+@media screen and (min-width: 600px) {
+  main {
+      flex-direction: row !important;
+  }
+  .card {
+      width: 49%;
+      margin: 0;
+      margin-top: 1em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card {
+      width: 32%;
+  }
+}@media screen and (min-width: 1800px) {
+  .card {
+      width: 24%;
+  }
+}
+@media screen and (max-width: 600px) {
+    #settings-dialog .secondary-btn {
+        width: 100%;
+    }
+}

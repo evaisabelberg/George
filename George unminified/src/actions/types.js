@@ -1,0 +1,9 @@
+export const GET_HOMESEER = 'GET_HOME';
+export const HOME_LOADING = 'HOME_LOADING';
+export const GET_DEFAULT_VIEW = 'GET_DEFAULT_VIEW';
+export const USER_IS_LOGGED_IN ='USER_IS_LOGGED_IN';
+export const SET_VIEW ='SET_VIEW';
+export const SET_HOMESEER = 'SET_HOMESEER';
+export const SET_USER_ORDER = 'SET_USER_ORDER';
+export const UPDATE_HOMESEER = 'UPDATE_HOMESEER';
+export const SET_ORDER = 'SET_ORDER';
