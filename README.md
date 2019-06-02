@@ -66,7 +66,7 @@ export const getHomeseerData = () => dispatch => {
 #### Demo: User
 ![](user.gif)
 #### Log: HomeSeer
-![](hslog.PNG)
+![](hslog.jpg)
 #### Code
 ```
 () => {
