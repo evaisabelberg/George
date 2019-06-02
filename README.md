@@ -8,13 +8,14 @@ A home automation UI for HomeSeer
 - Kiwi browser for mobile clients
 - Redux dev tools extension added in browser
 - Download and extract George in desired location
+- Insert your keys in 
 ## Install
 ### Run as Windows service
 1. Follow the instructions of this link: https://tomasz.janczuk.org/2011/08/hosting-nodejs-applications-in-iis-on.html
 ### Run manually from command prompt
-1. Inside George root folder, run 'npm install' and 'npm run client-install'
-2. Locate the database in George root folder
-3. Run npm start, which concurrently runs the server and client - consequently opening the application in a browser
+1. Inside George root folder, run 'npm install' and 'npm client-install'
+2. Run 'npm start'
+3. Navigate to url:port in browser
 
 **Note: The browser must have Redux Dev Tools installed to work with this application.**
 
