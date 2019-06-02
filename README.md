@@ -1,5 +1,6 @@
 # George
 A home automation UI for HomeSeer
+
 ## Prerequisites
 - Node.js
 - MongoDB (running)
