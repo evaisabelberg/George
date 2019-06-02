@@ -58,4 +58,4 @@ export const getHomeseerData = () => dispatch => {
 
 ### 4: Reorder locations
 #### Demo
-![](reorder.gif)
+![](reorderwdb.gif)
