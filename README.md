@@ -1,4 +1,6 @@
 # George
+## Bridging the gap between humans and home automation
+
 A home automation UI for HomeSeer
 
 ## Prerequisites
