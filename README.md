@@ -1,7 +1,7 @@
 # George
 *Bridging the gap between humans and home automation*
 
-A home automation UI for HomeSeer
+George is a home automation UI for HomeSeer and was developed as a Bachelor's degree examination project.
 
 ## Prerequisites
 - Node.js
