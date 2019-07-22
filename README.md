@@ -3,7 +3,7 @@
 
 George is a home automation UI for HomeSeer and was developed as a Bachelor's degree examination project. Built as a ReactJS web application, George is a real-time interface connecting users to their home automation by displaying only relevant data - removing unwanted features and clutter. The aim is to allow users to view and interact with the state of their integrated devices instantaneously and simultaneously with minimal effort. George is comaptible with HomeSeer 3 automation system.
 
-![](guest.gif)
+![](user.gif)
 
 ## Prerequisites
 - Node.js
