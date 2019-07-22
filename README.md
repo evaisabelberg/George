@@ -67,9 +67,6 @@ export const getHomeseerData = () => dispatch => {
 ![](reorderwdb.gif)
 
 ### 5: View state
-#### Demo: Guest
-![](guest.gif)
-#### Demo: User
 ![](user.gif)
 #### Log: HomeSeer
 ![](hslog.jpg)
