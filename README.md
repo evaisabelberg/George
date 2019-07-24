@@ -1,7 +1,7 @@
 # George
 *Bridging the gap between humans and home automation*
 
-George is a home automation UI for HomeSeer and was developed as a Bachelor's degree examination project. Built as a ReactJS web application, George is a real-time interface connecting users to their home automation by displaying only relevant data - removing unwanted features and clutter. The aim is to allow users to view and interact with the state of their integrated devices instantaneously and simultaneously with minimal effort. George is comaptible with HomeSeer 3 automation system.
+George is a modular DIRT application developed in full-stack JavaScript. The application can be easily configured to different home setups, covering various technologies and layouts. It enables users to concurrently view and interact with the state of their specific home automation setup. By displaying content from sensors, automation devices and appliances it provides an intelligently sorted view of information, in context, from where users can interact with the house. George is comaptible with HomeSeer 3 automation system.
 
 ![](user.gif)
 
@@ -20,7 +20,7 @@ George is a home automation UI for HomeSeer and was developed as a Bachelor's de
 ### Run manually from command prompt
 1. Inside George root folder, run 'npm install' and 'npm client-install'
 2. Run 'npm start'
-3. Navigate to url:port in browser
+3. Navigate to url:port in a browser
 
 **Note: The browser must have Redux Dev Tools installed to work with this application.**
 
