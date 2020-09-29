@@ -1,7 +1,7 @@
 # Butler
 *A digital butler that bridge the gap between humans and home automation*
 
-George is a modular DIRT application developed in full-stack JavaScript. The application can be easily configured to different home setups, covering various technologies and layouts. It enables users to concurrently view and interact with the state of their specific home automation setup. By displaying content from sensors, automation devices and appliances it provides an intelligently sorted view of information, in context, from where users can interact with the house. George is comaptible with HomeSeer 3 automation system.
+Butler is a modular DIRT application developed in full-stack JavaScript. The application can be easily configured to different home setups, covering various technologies and layouts. It enables users to concurrently view and interact with the state of their specific home automation setup. By displaying content from sensors, automation devices and appliances it provides an intelligently sorted view of information, in context, from where users can interact with the house. George is comaptible with HomeSeer 3 automation system.
 
 ![](user.gif)
 
